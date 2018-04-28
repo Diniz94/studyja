@@ -2,22 +2,24 @@
     <div class="center-page container">
         <div class="window container">
             <div class="container">
-            <h1 class="text-center">Login</h1>
-            <input class="form-control form-control-md nome" type="text" placeholder="Nome  de Usuário">
+            <h1 class="text-center">Junte se a nós</h1>
+            <input class="form-control form-control-md nome" type="text" placeholder="E-mail">
             <input class="form-control form-control-md senha" type="text" placeholder="Senha">
             <div class="form-check mb-2">
                 <form>
                     <input class="form-check-input" type="checkbox" id="lembrarSenha">
                     <label class="form-check-label" for="lembrarSenha">
-                    Lembrar minha senha
+                    Quero receber noticias em meu e-mail
                     </label>
                 </form>
                 </div>
-            <button type="submit" class="btn btn-primary df-button" style="width:100%">Entrar</button>
+            <button type="submit" class="btn btn-primary df-button" style="width:100%">Criar Conta</button>
             <small id="passwordHelpBlock" class="form-text text-muted">
-                    <a [routerLink]="['/cadastro']" >Esqueceu sua senha?</a>
+                    <a routerLink="/login">Já Possui Cadastro? Clique aqui</a>
                 </small>
             </div>
         </div>
+        <div class="container msg"><small><blockquote>Ao efetuar o cadastro, você está aceitando nossos <b>termos de uso</b> e <b>politica de privacidade.</b>
+        </blockquote></small></div>
     </div>
 </body>
