@@ -6,6 +6,7 @@ import { LoginComponent } from './Login/login.component';
 import { CadastroModule} from './Cadastro/cadastro.module';
 import { routing } from './app.routes';
 import { CadastroComponent } from './Cadastro/cadastro.component';
+import { BannerPrincipalComponent } from './bannerprincipal/bannerprincipal.component';
 
 
 
@@ -14,7 +15,8 @@ import { CadastroComponent } from './Cadastro/cadastro.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    CadastroComponent
+    CadastroComponent,
+    BannerPrincipalComponent
   ],
   imports: [
     BrowserModule,
