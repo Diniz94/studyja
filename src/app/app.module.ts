@@ -7,8 +7,9 @@ import { CadastroModule} from './Cadastro/cadastro.module';
 import { routing } from './app.routes';
 import { CadastroComponent } from './Cadastro/cadastro.component';
 import { BannerPrincipalComponent } from './bannerprincipal/bannerprincipal.component';
-
-
+import { NavBarModule} from './nav-bar/navbar.module'
+import { NavBarComponent } from './nav-bar/navbar.component';
+import { InfoComponent } from './Informacoes_pessoais/info.component';
 
 
 @NgModule({
@@ -16,8 +17,10 @@ import { BannerPrincipalComponent } from './bannerprincipal/bannerprincipal.comp
     AppComponent,
     LoginComponent,
     CadastroComponent,
-    BannerPrincipalComponent
-  ],
+    BannerPrincipalComponent,
+    NavBarComponent,
+    InfoComponent,
+   ],
   imports: [
     BrowserModule,
     routing

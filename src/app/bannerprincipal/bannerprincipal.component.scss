@@ -1,20 +1,11 @@
-header{
-    width: 100%;
-    height: 300px;
-    background-color: rgba(000,000,000,0.5);
+
+.banner{
+    height:300px;
+    background-image: linear-gradient(rgba(black,0.8),rgba(black,0.8)) ,url('../../images/1.png');
+    background-size: cover;
+    background-position: center;
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    // justify-content: space-around;
-    height: auto;
-}
-.menu{
-    background-image: url('/imgs/menu.png');
-}
-.nav-left{
+#desc{
     margin-top:1em;
-        .search{
-            margin-left: 0.3em;
-        }
+    margin-bottom: 5em;
 }

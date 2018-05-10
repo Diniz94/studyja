@@ -1,0 +1,26 @@
+header{
+    width: 100%;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-around;
+    height: auto;
+    line-height: 2em;
+}
+.nav-left{
+    margin-top:1em;
+        a{
+            cursor: pointer;
+        }
+}
+.nav-right{
+    margin-top:1em;
+        a{
+            cursor: pointer;
+        }
+}
+i{
+    font-size: 1.5em;
+}
