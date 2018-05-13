@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
 })
 
 export class NavBarComponent{
+    constructor(){
 
+    }
+    ngOnInit(){
+
+    }
+    menuResponsive(){
+        let sidenav = document.querySelector('.sidenav');
+        sidenav.classList.add('activeMenu');
+        sidenav.classList.remove('hiddenMenu');
+    }
 }

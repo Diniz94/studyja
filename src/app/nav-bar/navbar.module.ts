@@ -7,5 +7,4 @@ import {NavBarComponent} from './navbar.component'
 })
 
 export class NavBarModule{
-    
 }

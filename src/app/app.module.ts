@@ -10,6 +10,7 @@ import { BannerPrincipalComponent } from './bannerprincipal/bannerprincipal.comp
 import { NavBarModule} from './nav-bar/navbar.module'
 import { NavBarComponent } from './nav-bar/navbar.component';
 import { InfoComponent } from './Informacoes_pessoais/info.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { InfoComponent } from './Informacoes_pessoais/info.component';
     BannerPrincipalComponent,
     NavBarComponent,
     InfoComponent,
+    FooterComponent,
    ],
   imports: [
     BrowserModule,

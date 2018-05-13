@@ -1,8 +1,21 @@
 <header>
+        <div class="sidenav hiddenMenu">
+            <div class="sidenav-top">
+                <button class="btn-signup btn btn-default">Cadastre-se</button>
+                <button class="btn-signin btn btn-default">Login</button>
+            </div>
+        <ul>
+            <li  class="list-group-item"><a href="#">Sobre</a></li>
+            <li  class="list-group-item"><a href="#">Termos de Uso</a></li>
+        </ul>
+        <div class="sidenav-bottom">
+    
+        </div>
+    </div>
     <div class="container">
         <nav>
             <div class="nav-left col-2">
-                <a><i class="fas fa-bars"></i></a>
+                <a (click)="menuResponsive()"><i class="fas fa-bars"></i></a>
             </div>
             <div class="col-8 text-center">
                 <h1>Study Ja</h1>

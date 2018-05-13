@@ -1,6 +1,5 @@
 header{
-    width: 100%;
-    
+    width: 100%; 
 }
 nav{
     display: flex;
@@ -23,4 +22,37 @@ nav{
 }
 i{
     font-size: 1.5em;
+}
+.sidenav{
+    width: 80%;
+    height: 100%;
+    background-color: #f8f8f8;
+    position: absolute;
+    z-index: 1000;
+    margin-left: none;
+
+    .sidenav-top{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+
+        .btn-signup{
+            padding: 5px 15px;
+            background-color: #d8315b;
+            color: white;
+            margin-right: 10px;
+        }
+        .btn-signin{
+            color:#3b3b3b;
+        }
+    }
+    .list-group-item a{
+        color:#3b3b3b;
+   }
+}
+.activeMenu{
+    display: block;
+}
+.hiddenMenu{
+    display: none;
 }

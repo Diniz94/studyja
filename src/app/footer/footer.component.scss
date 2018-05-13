@@ -1,0 +1,32 @@
+.footer-main{
+    margin-bottom: 2em;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top:2em;
+        margin-bottom: 2em;
+        ul li{
+            display: inline-block;
+            padding-right: 1.3em;
+            margin-top:1.3em;
+        }
+    }
+    .footer-main__social-medias{
+        ul li {
+            display: inline-block;
+            margin-left: 2em;
+        }
+    }
+    .footer-main__row{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-main__nav-privacite{
+        ul li {
+            display: inline-block;
+            padding:1em;
+        }
+    }
+}
