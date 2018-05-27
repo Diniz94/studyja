@@ -24,7 +24,6 @@ i{
     font-size: 1.5em;
 }
 .sidenav{
-    display: flex;
     width: 80%;
     height: 100%;
     background-color: #f8f8f8;
@@ -59,21 +58,8 @@ i{
 }
 .sidenav-bottom{
    float: right;
-   margin: 15px 15px 15px 0px;
+   margin: 15px;
    cursor:pointer;
-}
-.logout{
-    align-self: flex-end;
-}
-.profile-info{
-    display: flex;
-    justify-content: center;
-        img{
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            background-color: grey;
-        }
 }
 .search{
     margin:1em 0 1em 0;

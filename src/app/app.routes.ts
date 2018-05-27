@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CadastroComponent } from './Cadastro/cadastro.component';
 import { BannerPrincipalComponent } from './bannerprincipal/bannerprincipal.component';
 import { InfoComponent } from './Informacoes_pessoais/info.component';
+import { CategoriasComponent } from './categorias/categorias.component';
 
 
 const APP_ROUTES: Routes =[
@@ -13,7 +14,8 @@ const APP_ROUTES: Routes =[
     { path: 'login', component: LoginComponent},
     { path:'cadastro', component: CadastroComponent},
     { path:'encontre', component: BannerPrincipalComponent},
-    { path:'teste', component: InfoComponent}
+    { path:'teste', component: InfoComponent},
+    {path: 'categorias', component: CategoriasComponent}
 
 ];
 

@@ -7,8 +7,9 @@ import { Component } from '@angular/core';
 })
 
 export class NavBarComponent{
-    constructor(){
-
+    constructor()
+    {
+     
     }
     ngOnInit(){
 
@@ -18,4 +19,19 @@ export class NavBarComponent{
         sidenav.classList.add('activeMenu');
         sidenav.classList.remove('hiddenMenu');
     }
+    closeMenuResponsive(){
+        let sidenav = document.querySelector('.sidenav');
+        sidenav.classList.remove('activeMenu');
+        sidenav.classList.add('hiddenMenu');
+    }
+    showCampoPesquisa(){
+        let search = document.querySelector('.search');
+        if(search.classList.contains("hiddenSearch")){
+          search.classList.remove('hiddenSearch');
+          return;
+        }
+        else{
+          search.classList.add('hiddenSearch'); 
+        }
+          }
 }

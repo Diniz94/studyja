@@ -11,6 +11,8 @@ import { NavBarModule} from './nav-bar/navbar.module'
 import { NavBarComponent } from './nav-bar/navbar.component';
 import { InfoComponent } from './Informacoes_pessoais/info.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavDeslogadoComponent } from './navDeslogado/nav-deslogado.component';
+import { CategoriasComponent } from './categorias/categorias.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     NavBarComponent,
     InfoComponent,
     FooterComponent,
+    NavDeslogadoComponent,
+    CategoriasComponent,
    ],
   imports: [
     BrowserModule,

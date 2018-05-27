@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { NavBarModule } from '../nav-bar/navbar.module';
-
 
 @Component({
     selector:'bannerprincipal',

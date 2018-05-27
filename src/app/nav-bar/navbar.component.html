@@ -1,16 +1,24 @@
 <header>
         <div class="sidenav hiddenMenu">
-            <div class="sidenav-top">
-                <button class="btn-signup btn btn-default">Cadastre-se</button>
-                <button class="btn-signin btn btn-default">Login</button>
+                <div class="sidenav-bottom">
+                        <i class="fas fa-times" (click)="closeMenuResponsive()"></i>
+                </div>
+            <div class="profile-info">
+               <img src="" alt="" class="">
+               <h4> {{NOME}} </h4>
             </div>
         <ul>
-            <li  class="list-group-item"><a href="#">Sobre</a></li>
-            <li  class="list-group-item"><a href="#">Termos de Uso</a></li>
+            <li  class="list-group-item btn"><a href="#">Últimos Resumos</a></li>
+            <li  class="list-group-item btn"><a href="#">Categorias</a></li>
+            <li  class="list-group-item btn"><a href="#">*Meus Resumos</a></li>
+            <li  class="list-group-item btn"><a href="#">*Favoritos</a></li>
+            <li  class="list-group-item btn"><a href="#">Sobre</a></li>
+            <li  class="list-group-item btn"><a href="#">Termos de Uso</a></li>
         </ul>
-        <div class="sidenav-bottom">
-    
+        <div class="logout">
+            <a role="button"> Sair</a>
         </div>
+
     </div>
     <div class="container">
         <nav>
@@ -18,11 +26,14 @@
                 <a (click)="menuResponsive()"><i class="fas fa-bars"></i></a>
             </div>
             <div class="col-8 text-center">
-                <h1>Study Ja</h1>
+                <img src="../../images/logo_teste.png" alt="">
             </div>
             <div class="nav-right col-2">
-                <a><i class="fas fa-search"></i></a>
+                    <a (click)="showCampoPesquisa()"><i class="fas fa-search"></i></a>
             </div>
         </nav>
+        <div class="search hiddenSearch" ng-if="search">
+                <input type="text" placeholder="Pesquise por resumo...">
+        </div>
     </div>
 </header>
