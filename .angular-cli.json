@@ -9,7 +9,13 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+          {
+        "glob": "**/*", 
+        "input": "../node_modules/ckeditor/", 
+        "output": "assets/js/ckeditor/", 
+        "allowOutsideOutDir": true
+          }
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -25,7 +31,8 @@
       ],
       "scripts": [
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
-       "../node_modules/jquery/dist/jquery.js"
+       "../node_modules/jquery/dist/jquery.js",
+       "../node_modules/ckeditor/ckeditor.js" 
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

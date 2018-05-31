@@ -1,0 +1,35 @@
+<navbar></navbar>
+<script src="node_modules/ckeditor/ckeditor.js"></script> 
+<section class="container">
+    <h1 class="text-center">Escreva seu resumo!</h1>
+    <div class="row">
+        <div class="col-md-3 left">
+            <h5>Exemplo de Resumo: </h5>
+            <img>
+        </div>
+        <div class="col-md-9">
+            <form action="">
+                <label for="Título">Título:</label>
+                <input type="text" class="form-control" placeholder="">
+               <label for="descricao">Descriçao:</label>
+                <textarea name="descricao" id="descricao" class="form-control" cols="40" rows="2"></textarea>
+                <label for="">Categoria:</label>
+                <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option value="Matematica">Matematica</option>
+                        <option value="Fisica">Fisica</option>
+                        <option value="Tecnologia">Tecnologia</option>
+                        <option value="Humanas">Humanas</option>
+                        <option value="News">News</option>
+                </select>
+                <label for="texto" class="text-center">Texto:</label>
+                <textarea class="form-control" name="texto" id="texto" rows="30" (click)="ckeditor()"></textarea>
+                <!-- <sample></sample> -->
+                <div class="text-center">
+                    <input type="submit" class=" btn btn-primary" name="" id="">
+                 </div>
+            </form>
+        </div>
+    </div> 
+
+</section>

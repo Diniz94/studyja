@@ -13,6 +13,8 @@ import { InfoComponent } from './Informacoes_pessoais/info.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavDeslogadoComponent } from './navDeslogado/nav-deslogado.component';
 import { CategoriasComponent } from './categorias/categorias.component';
+import { EscreverResumoComponent } from './escrever-resumo/escrever-resumo.component';
+
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { CategoriasComponent } from './categorias/categorias.component';
     FooterComponent,
     NavDeslogadoComponent,
     CategoriasComponent,
+    EscreverResumoComponent,
+
    ],
   imports: [
     BrowserModule,

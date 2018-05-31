@@ -7,6 +7,7 @@ import { CadastroComponent } from './Cadastro/cadastro.component';
 import { BannerPrincipalComponent } from './bannerprincipal/bannerprincipal.component';
 import { InfoComponent } from './Informacoes_pessoais/info.component';
 import { CategoriasComponent } from './categorias/categorias.component';
+import { EscreverResumoComponent } from './escrever-resumo/escrever-resumo.component';
 
 
 const APP_ROUTES: Routes =[
@@ -15,7 +16,8 @@ const APP_ROUTES: Routes =[
     { path:'cadastro', component: CadastroComponent},
     { path:'encontre', component: BannerPrincipalComponent},
     { path:'teste', component: InfoComponent},
-    {path: 'categorias', component: CategoriasComponent}
+    {path: 'categorias', component: CategoriasComponent},
+    {path: 'novo-resumo', component: EscreverResumoComponent}
 
 ];
 
